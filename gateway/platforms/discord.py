@@ -560,7 +560,7 @@ def _convert_markdown_tables_to_code_blocks(text: str) -> str:
 
             # Wrap in code block
             table_text = "\n".join(table_lines)
-            result.append(f"```markdown\n{table_text}\n```")
+            result.append(f"```\n{table_text}\n```")
 
         else:
             result.append(line)
