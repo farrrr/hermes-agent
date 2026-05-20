@@ -1,3 +1,4 @@
+# rollback drill fixture v1
 """Welcome banner, ASCII art, skills summary, and update check for the CLI.
 
 Pure display functions with no HermesCLI state dependency.
